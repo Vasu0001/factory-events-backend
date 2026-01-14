@@ -184,7 +184,7 @@ The test suite covers:
 Clone the repository to your local machine.
 
 ```bash
-git clone [https://github.com/Vasu0001/factory-events-backend]
+git clone https://github.com/Vasu0001/factory-events-backend
 
 ```
 
@@ -205,4 +205,5 @@ After the build is successful, you can run the application using the following c
 ```bash
 mvn spring-boot:run
 ```
+
 

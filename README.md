@@ -29,13 +29,8 @@ This project is implemented as part of a **Backend Intern Assignment** using **S
 
 ## Architecture
 
-Controller Layer
-↓
-Service Layer (Business Logic)
-↓
-Repository Layer (JPA)
-↓
-Database
+**Controller → Service → Repository → Database**
+
 
 ### Responsibilities
 
@@ -90,7 +85,6 @@ Events are deduplicated using **eventId**.
 
 ---
 
-### Payload Comparison
 
 ### Payload Comparison
 
@@ -150,9 +144,10 @@ Returns:
 
 ### 3. Top Defect Lines
 
-**GET /stats/top-defect-lines**
+**GET /stats/top-defect-lines?factoryId=&from=&to=&limit=**
 
 Returns top production lines sorted by total defects within a given time window.
+
 
 ---
 

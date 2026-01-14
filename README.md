@@ -177,9 +177,32 @@ The test suite covers:
 
 ---
 
-## How to Run
+## Setup Guide
+
+### 1. Clone the Repository
+
+Clone the repository to your local machine.
 
 ```bash
-mvn clean test
+git clone [https://github.com/Vasu0001/factory-events-backend]
+
+```
+
+## 2. Build the Project
+
+Navigate to the project root directory and run the following Maven command to build the project:
+
+```bash
+mvn clean install
+```
+
+This will download the necessary dependencies and compile the project.
+
+### 3. Run the Application
+
+After the build is successful, you can run the application using the following command:
+
+```bash
 mvn spring-boot:run
 ```
+
